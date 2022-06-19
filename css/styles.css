@@ -8,8 +8,8 @@
   --grey-txt-color: #757575;
 }
 
-.body {
-  font-family: var(--main-txt-color), sans-serif;
+body {
+  font-family: var(--main-font), sans-serif;
   color: #e5e5e5;
 }
 
@@ -40,6 +40,11 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: var(--main-txt-color);
+}
+
+.header-logo span{
+  color:var(--accent-txt-color)
 }
 
 .header-link {
@@ -174,10 +179,14 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer-logo span{
+  color: var(--accent-txt-color);
 }
 
 .footer-second-address {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -185,7 +194,6 @@
 }
 
 .footer-mail {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -193,7 +201,6 @@
 }
 
 .footer-contact {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
